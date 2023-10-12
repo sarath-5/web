@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Form</title>
+</head>
+<body>
+<h1>My Form</h1>
+
+<form action="/action_page.php" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+
+  <label for="file">Choose a file to upload:</label>
+  <input type="file" id="file" name="file">
+
+  <label for="type">What does the file contain?</label>
+  <select id="type" name="type">
+    <option value="image">Image</option>
+    <option value="sourcecode">Source code</option>
+    <option value="binary">Binary code</option>
+  </select>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
